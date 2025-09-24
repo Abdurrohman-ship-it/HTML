@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 TABLE</title>
+    <style>
+        #table-basic {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        #table-basic td {
+            padding: 6px;
+            font-size: 16px;
+        }
+        #table-basic .bg-blue {
+            background-color: darkblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML 5 TABLE</h1>
+    <hr />
+    <h3>Table Basic</h3>
+    <table border="1" id="table-basic">
+        <!-- <tr> : untuk membuat baris -->
+        <!-- <td> : untuk membuat data/kolom -->
+        <tr class="bg-blue">
+            <td>No</td>
+            <td>Nama</td>
+            <td>Asal</td>    
+        </tr>
+        <!-- Shortcut: tr>td*3 -->
+        <tr>
+            <td>1.</td>
+            <td>Yunus</td>
+            <td>Medan</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Bilal</td>
+            <td>Planet Bekasi</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Abdul</td>
+            <td>Tangerang</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Abdurrohman</td>
+            <td>Bekasi</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Umar</td>
+            <td>Jakarta</td>
+    </table>
+
+
+    <h3>Table Standar</h3>
+    <!-- shortcut : table>head+body+foot -->
+    <!-- th : untuk membuat data/kolom di head -->
+    <table border="1" style="width: 50%;">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Tanggal</th>
+                <th>Nama barang</th>
+                <th>Harga barang</th>   
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>23/09/2023</td>
+                <td>Es teh desa</td>
+                <td>3.000,-</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>23/09/2023</td>
+                <td>Bubur Ayam</td>
+                <td>20.000,-</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>25/09/2025</td>
+                <td rowspan="2">ROG</td>
+                <td>20.000.000,-</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>23/09/2025</td>
+                <!-- rowspan : untuk menggabungkan baris -->
+                <td>20.000.000,-</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!-- colspan : untuk menggabungkan kolom -->
+                <td colspan="3"><b>Total pengeluaran</b></td>
+                <td><b>Rp. 20.030.000,-</b></td>
+            </tr>
+        </tfoot>
+
+    </table>
+ </body>
+</html>
