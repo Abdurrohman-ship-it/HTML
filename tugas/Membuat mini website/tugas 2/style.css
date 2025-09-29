@@ -35,12 +35,12 @@
 
 /* Box seragam */
 .box {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 15px;
-  margin: 20px 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  background: #fff; /* latar belakang putih */
+  border: 1px solid #e5e7eb; /* garis tepi abu-abu tipis */
+  border-radius: 12px; /* sudut kotak dibuat melengkung */
+  padding: 15px; /* jarak dalam antara isi dan tepi */
+  margin: 20px 0; /* jarak luar atas & bawah 20px */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); /* efek bayangan tipis */
 }
 
 /* Logo atas */

@@ -1,0 +1,30 @@
+</head>
+  <body>
+    <h1 id="page-title">Belajar CSS Internal</h1>
+    <link rel="stylesheet" href="style.css">
+    <hr />
+    <!-- box ke-1 -->
+    <div id="box1">
+      <h2 class="box-title">Artikel Baru</h2>
+      <p class="box-text">ini artikel baru bla bla bla....</p>
+    </div>
+    <!-- box ke-2 -->
+    <div id="box2">
+      <h2>Artikel Lama</h2>
+      <p>
+        ini artikel lama bang, boleh di
+        <b>baca</b> boleh kagak....
+      </p>
+      <p>ini haruse terikut juga jadi putih teksnya...</p>
+      <!-- color gold di .box-text ini akan kalah karna tertimpa dengan #box2 p yg sudah mengeset warna white -->
+      <p class="box-text">ini artikel kedua dgn class box-text...</p>
+      <p class="alt-text">Ini alternative text cuman ada di id box2 saja...</p>
+    </div>
+    <!-- box ke-3 -->
+    <div id="box3">
+      <h2 class="box-title">Artikel Ke-3</h2>
+      <p class="box-text">ini artikel ke-3 bang isinya bla bla bla....</p>
+      <p class="alt-text">cobain akses class alt-text di box3, ngefek nggak?</p>
+    </div>
+  </body>
+</html>

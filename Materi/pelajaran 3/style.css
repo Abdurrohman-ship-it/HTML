@@ -1,0 +1,43 @@
+
+      /* ID = di tandain dengan simbol # (pagar) */
+      /* CLASS = di tandain dengan simbol . (titik) */
+      #page-title {
+        color: gold;
+      }
+      #box1 {
+        background-color: chocolate;
+      }
+      .box-title {
+        color: white;
+        font-size: 24px;
+      }
+      .box-text {
+        color: gold;
+        font-size: 14px;
+      }
+      #box3 {
+        background-color: crimson;
+      }
+      #box2 {
+        background-color: blueviolet;
+        width: 300px;
+        height: 300px;
+        margin: 40px;
+        padding: 20px;
+        border: 8px solid red;
+      }
+      #box2 h2 {
+        text-align: center;
+        font-size: 38px;
+      }
+      #box2 p {
+        color: white;
+      }
+      #box2 p b {
+        font-size: 28px;
+      }
+      #box2 .alt-text {
+        color: red;
+        font-size: 20px;
+      }
+      
