@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Box Model & Position</title>
+    <!-- add pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Bungkus dengan class "container" agar ada space di sekitar kanan-->
+    <div class="container">
+      <h1>CSS3: Box Model & Position</h1>
+      <hr />
+      <h2>Bagian 1: Box Model</h2>
+      <!-- buat kolam otomatis dengan class grid -->
+      <div class="grid">
+        <div class="card">
+          <div id="box-a">
+            <p>Box A</p>
+            <p>(konten polos)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div id="box-b">
+            <p>Box B</p>
+            <p>(konten padding)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div id="box-c">
+            <p>Box C</p>
+            <p>(konten + padding + border)</p>
+          </div>
+        </div>
+        <div class="card">
+          <div id="box-d">
+            <p>Box D</p>
+            <p>(konten + Padding + border + Margin)</p>
+          </div>
+        </div>
+
+      </div>
+      <br />
+      <hr />
+      <br />
+      <h2>Bagian 2: Position</h2>
+      <div class="grid">
+      <div id="card">
+          <div id="box-e">
+          <p>(Static)</p>
+        </div> 
+      </div>
+      <div id="card">
+          <div id="box-f">
+          <p>(Relative)</p>
+          </div>
+      </div>
+        <div id="card">
+          <div id="box-g">
+          <p>(Absolute)</p>
+          </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

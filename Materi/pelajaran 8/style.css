@@ -1,0 +1,38 @@
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(205, 255, 217);
+}
+
+h1 {
+  color: #00ff51;
+  font-size: 60px;
+  font-family: "ka1", sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
+  font-family: "BBH Sans Bogle", sans-serif;
+}
+
+.paragraph {
+  width: 50%;
+  background-color: aqua;
+}
+
+@font-face {
+  font-family: "Ka1";
+  src: url(Ka1.ttf) format("truetype");
+}
+
+.paragraph p {
+  margin: 30px 0;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.5;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Santri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="judul-biru">Formulir Umpan-Balik</h1>
+  <p class="subjudul">Kritik, saran, dan masukkan</p>
+    <hr />
+    <div class="nav link-tengah">
+        <a href="index.html">Beranda</a>
+        <a href="Biodata.html">Biodata</a>
+        <a href="Galeri.html">Galeri</a>
+        <a href="Jadwal.html">Jadwal</a>
+        <a href="Feedback.html" class="active">Feedback</a>
+      </div>
+    <hr />
+
+  <div class="box">
+    <h3 class="section-title">Silakan Isi Buku Tamu</h3>
+    <form action="https://httpbin.org/post" method="POST">
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" name="nama" id="nama"><br><br>
+
+      <label for="E-mail">E-mail</label><br>
+      <input type="email" name="email" id="E-mail" required><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+      <input type="radio" name="gender" value="Perempuan"> Perempuan
+      <input type="radio" name="gender" value="Rahasia"> Tidak Ingin Menyebutkan
+      <br><br>
+
+      <label>Rating Kepuasan Website (Skala 1-10):</label><br>
+      <input type="number" name="number" value="Rkw">
+      <br><br>
+
+      <label>Rekomendasi Website Ini?</label><br>
+      <input type="radio" name="rekomendasi" value="Ya"> Ya, sangat direkomendasikan
+      <input type="radio" name="rekomendasi" value="Mungkin"> Mungkin saja
+      <input type="radio" name="rekomendasi" value="Tidak"> Tidak tau
+      <br><br>
+
+      <label>Topik yang paling menarik:</label><br>
+<form>
+  <label><input type="checkbox" name="rating" value="1" onclick="onlyOne(this)"> Biodata</label>
+  <label><input type="checkbox" name="rating" value="2" onclick="onlyOne(this)"> Galeri</label>
+  <label><input type="checkbox" name="rating" value="3" onclick="onlyOne(this)"> Jadwal</label>
+</form>
+
+<script>
+function onlyOne(checkbox) {
+  const checkboxes = document.getElementsByName('rating');
+  checkboxes.forEach((item) => {
+    if (item !== checkbox) item.checked = false;
+  });
+}
+</script><br><br>
+
+
+
+      <label>Kesan terhadap website ini:</label><br>
+      <select name="kesan">
+        <option value="Bagus">Bagus</option>
+        <option value="Menarik">Menarik</option>
+        <option value="Perlu diperbaiki">Perlu diperbaiki</option>
+      </select>
+      <br><br>
+
+      <label>Pesan:</label><br>
+      <textarea name="pesan" rows="4" cols="40" placeholder="Tulis pesanmu di sini..."></textarea><br><br>
+
+      <button type="reset">Reset</button>
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+
+</body>
+</html>

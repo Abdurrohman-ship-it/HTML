@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Santri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="judul-biru">Form Feedback</h1>
+  <hr>
+
+  <div class="box">
+    <h3 class="section-title">Silakan Isi Buku Tamu</h3>
+    <form action="https://httpbin.org/post" method="POST">
+      <label>Nama Lengkap:</label><br>
+      <input type="text" name="nama" required><br><br>
+
+      <label>Usia:</label><br>
+      <input type="number" name="usia" min="10" max="25"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+      <input type="radio" name="gender" value="Perempuan"> Perempuan
+      <br><br>
+
+      <label>Hobi:</label><br>
+      <input type="checkbox" name="hobi" value="Membaca"> Membaca
+      <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+      <input type="checkbox" name="hobi" value="Ngoding"> Ngoding
+      <br><br>
+
+      <label>Kesan terhadap website ini:</label><br>
+      <select name="kesan">
+        <option value="Bagus">Bagus</option>
+        <option value="Menarik">Menarik</option>
+        <option value="Perlu diperbaiki">Perlu diperbaiki</option>
+      </select>
+      <br><br>
+
+      <label>Pesan:</label><br>
+      <textarea name="pesan" rows="4" cols="40" placeholder="Tulis pesanmu di sini..."></textarea><br><br>
+
+      <button type="reset">Reset</button>
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</body>
+</html>

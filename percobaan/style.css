@@ -1,0 +1,29 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Tambah hover */
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #22c55e;
+  text-decoration: underline;
+}
+
+/* Tambah sedikit gaya untuk tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+}
