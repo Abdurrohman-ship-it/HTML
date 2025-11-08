@@ -1,65 +1,70 @@
 <!DOCTYPE html>
-<html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Halaman Utama</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Logo -->
-    <img src="img/logo.webp" alt="Logo HSI" class="logo-atas" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas CSS Components - HSI Boarding School Purworejo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <div class="judul-box">
-      <h1 class="judul-biru">HSI Boarding School Purworejo</h1>
-      <p class="subjudul">Website Profil Santri - Kelas 10</p>
+  <!-- 🧩 Kotak 1: Alert Info -->
+  <div class="box">
+    <h2>Tugas 1 – Alert Info</h2>
+    <div class="alert">
+      <p>ℹ️ Info: Pastikan data Anda sudah lengkap sebelum dikirim.</p>
+      <button class="close">×</button>
     </div>
+  </div>
 
-    <hr />
-
-    <div class="box">
-      <h3 class="section-title">Selamat Datang</h3>
-      <p>
-        Halo! Ini adalah website profil pribadi saya.<br />
-        Jelajahi setiap halaman untuk mengenal saya lebih dekat dan melihat aktivitas saya di HSI Boarding School.
-      </p>
+  <!-- 🧩 Kotak 2: Profile Card -->
+  <div class="box">
+    <h2>Tugas 2 – Profile Card</h2>
+    <div class="profile-card">
+      <div class="avatar">
+        <img src="assets/user.png" alt="User Photo">
+        <span class="badge">Active</span>
+      </div>
+      <h3>Andika Putra</h3>
+      <p>Frontend Developer</p>
     </div>
+  </div>
 
-    <div class="box">
-      <h3 class="section-title">Avatar & Minat IT</h3>
-      <img
-        class="photo"
-        src="https://media.istockphoto.com/id/1150199386/id/foto/pebisnis-menggunakan-tablet-menganalisis-data-penjualan-dan-grafik-pertumbuhan-ekonomi.jpg?s=612x612&w=is&k=20&c=1nj-zsK26yHcZyGtWuen9cRq-Hbe3y4EYNHyjULa_pc="
-        alt="Gambar Internet"
-        width="250"
-      />
-      <p>
-        Saya tertarik dengan dunia teknologi dan ingin menjadi programmer yang
-        bisa menciptakan solusi bermanfaat.
-      </p>
+  <!-- 🧩 Kotak 3: Pricing Card -->
+  <div class="box">
+    <h2>Tugas 3 – Pricing Card</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p class="price">Rp50.000</p>
+        <ul>
+          <li>1 Project</li>
+          <li>Community Support</li>
+        </ul>
+        <button>Pilih Paket</button>
+      </div>
+
+      <div class="plan highlight">
+        <h3>Pro</h3>
+        <p class="price">Rp150.000</p>
+        <ul>
+          <li>5 Projects</li>
+          <li>Priority Support</li>
+        </ul>
+        <button>Pilih Paket</button>
+      </div>
+
+      <div class="plan">
+        <h3>Enterprise</h3>
+        <p class="price">Rp300.000</p>
+        <ul>
+          <li>Unlimited Projects</li>
+          <li>Dedicated Support</li>
+        </ul>
+        <button>Pilih Paket</button>
+      </div>
     </div>
+  </div>
 
-    <div class="link-tengah">
-      <a href="biodata.html">➡ Biodata</a> |
-      <a href="galeri.html">📷 Galeri</a> |
-      <a href="jadwal.html">📅 Jadwal</a> |
-      <a href="feedback.html">💬 Feedback</a>
-    </div>
-
-    <hr />
-
-    <!-- Bonus: Video perkenalan -->
-    <div class="box">
-      <h3 class="section-title">Perkenalan dalam Bahasa Arab</h3>
-      <iframe
-        width="360"
-        height="215"
-        src="https://www.youtube.com/embed/ZTlaC12BBTs"
-        title="Perkenalan Diri Bahasa Arab"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-    </div>
-  </body>
+</body>
 </html>
-
-

@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'bismillah scrip';
+  src: url('Bismillah Script.ttf');
+}
+
+h1 {
+  font-family: 'sans-serif';
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: rgb(78, 119, 244);
+  letter-spacing: -1px;
+  word-spacing: 9px;
+}
+body {
+  font-family: 'Poppins', sans-serif; /* Gunakan font modern */
+  background-color: #ccd0d2; /* Warna latar belakang abu lembut */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Warna teks utama */
+}
+
+.Red {
+  color: red;
+  font-weight: bold;
+}
+
+article h2 {
+  color: blue;
+}
+
+article {
+  background-color: #fff; /* warna kotaknya putih */
+  border-radius: 10px; /* sudut lembut */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* bayangan halus di bawah */
+  padding: 20px; /* ruang di dalam kotak */
+  width: 90%; /* biar sejajar dengan header */
+  margin: 20px auto; /* tengah dan beri jarak atas-bawah */
+  line-height: 1.6; /* jarak antar baris agar mudah dibaca */
+  font-size: 16px; /* ukuran font yang nyaman dibaca */
+  letter-spacing: 0.5px; /* jarak antar huruf */
+
+  .garis {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 255, 140);
+  }
+}
+
+header {
+  background-color: #dfefff; /* Biru muda agar tenang */
+  text-align: center; /* Tengah-kan teks */
+  padding: 20px 20px; /* Tambah ruang dalam */
+  border-radius: 10px; /* Sudut melengkung */
+  margin: 20px auto;
+  width: 90%;
+
+  .fst-italic {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    color: #555555;
+  }
+}
+
+b {
+  color: #0f0d0d; /* Hitam agar tegas */
+}
+
+blockquote {
+  border-left: 5px solid #020471; /* Garis biru di sisi kiri */
+  background-color: #b8cce9; /* Latar biru lembut */
+  padding: 12px 18px;
+  font-style: italic;
+  color: #0c0d0e;
+  margin: 20px auto;
+  border-radius: 4px;
+  width: 90%;
+  letter-spacing: 0,5px;
+}
+
+.signature {
+  font-family: 'bismillah scrip';
+  font-size: 40px;
+  color: #ff0000;
+  text-align: right;
+  padding-right: 30px;
+}
+
+footer {
+  text-align: center; /* Teks di tengah */
+  padding: 5px 0; /* Spasi atas dan bawah */
+  margin-top: -10px;
+
+}
+.left {
+  text-align: right;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.note {
+  border-left: 5px solid #cb0808; /* Garis biru di sisi kiri */
+  background-color: #ecc7c7; /* Latar biru lembut */
+  padding: 12px 18px;
+  font-style: italic;
+  color: #ea4a4a;
+  margin: 20px auto;
+  border-radius: 4px;
+  width: 90%;
+}

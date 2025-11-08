@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Display &amp; Flexbox</title>
+    <!-- pico css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Beri space di kiri-kanan halaman -->
+    <div class="container">
+      <h1>Latihan Tugas Flexbox</h1>
+      <hr />
+      <h2>Lat 1: Pricing Card</h2>
+      <div class="pricing-area">
+        <!-- tambahkan class 'pricing-area' pada div ini -->
+        <div class="card">Basic</div>
+        <div class="card pro-blue">Pro
+            <img src="https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_1280.jpg" alt="Laptop">
+        </div>
+        <div class="card">Enterprise</div>
+      </div>
+    </div>
+  <!-- end container -->
+  <br>
+  <hr>
+  <br>
+  <h2>Latihan 2: Alert Info</h2>
+    <div class="alert">
+        <p>ℹ️ Info: Harap berak pada tempatnya</p>
+        <button type="button"
+            onclick="this.parentElement.style.display='none';">
+            Close❌
+        </button>
+    </div>
+  </body>
+</html>
